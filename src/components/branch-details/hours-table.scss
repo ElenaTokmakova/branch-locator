@@ -1,0 +1,12 @@
+table.hoursTable{
+    width:100%;
+    .hcell {
+        margin: 0;
+        padding: 5px 0 5px 9px;
+        border-bottom: 1px #CCC dotted;
+        &.timing {
+            text-align: center;
+	        padding-left: 0
+        }
+    }
+}

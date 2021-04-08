@@ -1,0 +1,22 @@
+.branch-locator-find-branch-content {
+    margin-top: 2rem;
+    .branches-map-wrapper {
+        .map-wrapper {
+            .leaflet-container {
+                width: 100%;
+                height: 500px;
+            }
+        }
+        .branches-wrapper {
+            height: 500px;
+            overflow-y: scroll;
+            .branch-details {
+                margin-bottom: 1rem;
+                padding: 0.75rem;
+                background-color: #eee;
+                border-radius: 0.5rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

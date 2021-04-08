@@ -1,0 +1,25 @@
+.branch-information-container {
+    margin-bottom: 2rem;
+    .branch-details {
+        .yellow-marker-small {
+            position: relative;
+            .number {
+                position: absolute;
+                top: 0.25rem;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        .branch-details-basic {
+            padding-left: 0.75rem;
+            .branch-name {
+                margin-top: 0;
+            }
+        }
+    }
+    .map-link {
+        display: block;
+        margin-top: 1rem;
+    }
+}
+

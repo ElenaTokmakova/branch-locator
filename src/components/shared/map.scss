@@ -1,0 +1,44 @@
+// We need to also make sure to set the width/height of .leaflet-container that the map renders itself into,
+// otherwise it won’t be visible because the div will have a height of 0px
+.leaflet-container {
+    width: 100%;
+    height: 300px;
+    .leaflet-popup {
+        min-width: 250px;
+        .leaflet-popup-content-wrapper {
+            border-radius: 0;
+            .leaflet-popup-content {
+                margin: 13px 19px 13px 13px;
+                .popup-cont {
+                    font-family: 'UniversLTW01-57Condense 723821', Arial;
+                    font-weight: 400;
+                    font-size: 13px;
+                    width: 230px;
+                    overflow: hidden;
+                    img {
+                        float: left;
+                        margin: 0 10px 0 0;
+                    }
+                    .popup-info {
+                        width: 170px;
+                        float: left
+                    }
+                }
+            }
+        }
+    }
+    .leaflet-marker-icon {
+        background: transparent;
+        border: none;
+        .location-icon {
+            position: relative;
+            .location-number {
+                position: absolute;
+                top: -5px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+}
+
